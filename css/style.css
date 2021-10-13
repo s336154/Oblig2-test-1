@@ -1,0 +1,72 @@
+* {
+color: lightgray;
+border: none;
+font-weight: medium;
+ font-size: 16px;
+ line-height: 1.5em;
+ word-spacing: 0.25em;
+ background-color: black;
+   text-decoration: none;
+    text-align: center;
+
+
+}
+
+header > h1 {
+
+margin: 0px 0px;
+padding: 2px 5px;
+font-weight: bold;
+ font-stretch: extended;
+  font-size: 48px;
+/*  text-transform: uppercase; */
+   word-spacing: 0.3em;
+  letter-spacing: 3px;
+ color: pink;
+  font-family: "Papyrus", "Copperplate", fantasy;
+ background-image: url(../images/space2.jpg);
+  opacity: 0.89;
+
+}
+
+nav {
+
+   font-weight: bold;
+}
+
+ul {
+ background-image: url(../images/space.jfif);
+ background-repeat: repeat-x;
+}
+
+li {
+  letter-spacing: 3px;
+  display: inline;
+  font-size: 70px;
+  width: 100%;
+   color: pink;
+  font-family: "Papyrus", "Copperplate", fantasy;
+   font-stretch: extended;
+   font-weight: bold;
+    background-image: url(../images/space.jfif);
+    background-repeat: repeat-x;
+
+}
+
+nav li a:hover {
+text-decoration: underline;
+background-color: lightgray;
+padding: 3px;
+position: relative;
+top: -4px;
+
+
+}
+
+li.hidden {
+visibility: hidden;
+}
+
+
+
+
